@@ -30,5 +30,6 @@ def predict():
         ans = 'not dibatic'
     return render_template('predict.html', pred = f"person is {ans}")
 
-    #run the app
-app.run(debug=True)
+#run the app
+if __name == '__main__':
+    app.run()
